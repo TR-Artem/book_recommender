@@ -74,9 +74,16 @@ ratings = pd.DataFrame({
 
 ## 📸 Скриншоты
 
-| Главное окно | Детали книги |
-|--------------|--------------|
-| ![Главное окно](screenshots/main.png) | ![Детали](screenshots/details.png) |
+![image](https://github.com/user-attachments/assets/24900ccb-09e8-4a3d-ac85-e9139bfb33e5)
+
+![image](https://github.com/user-attachments/assets/de9e1a74-4401-43bb-a155-b30ee936062f)
+
+![image](https://github.com/user-attachments/assets/8291e2df-7b8a-4929-b39b-4a817d683fda)
+
+![image](https://github.com/user-attachments/assets/132eea13-a767-4930-9801-1ddec77a4ee3)
+
+![image](https://github.com/user-attachments/assets/f79be7f5-d16b-4a12-953c-31eba0cc901a)
+
 
 ## 📈 Производительность
 
@@ -94,61 +101,3 @@ ratings = pd.DataFrame({
 - [ ] Система пользовательских профилей
 - [ ] Поддержка электронных библиотек
 - [ ] Мобильная версия (Kivy/Qt for Android)
-
-## 🤝 Как помочь проекту
-
-1. 🐞 Сообщайте об ошибках в [Issues](https://github.com/yourusername/book-recommender/issues)
-2. 💡 Предлагайте новые фичи через Discussions
-3. 🛠 Участвуйте в разработке (Fork → Patch → Pull Request)
-
-## 📜 Лицензия
-
-MIT License © 2023 [Ваше имя]. Подробнее в файле [LICENSE](LICENSE).
-
----
-
-> **Note**: Для работы требуется Python 3.8+. [Полная документация](https://github.com/yourusername/book-recommender/wiki) доступна в Wiki.
-```
-
-### Рекомендации по использованию:
-
-1. Замените `yourusername` на ваш GitHub-username
-2. Добавьте реальные скриншоты в папку `screenshots/`
-3. Создайте файл `requirements.txt` с актуальными зависимостями
-4. Для GIF-демонстрации можно использовать [ScreenToGif](https://www.screentogif.com/)
-
-### Дополнительные элементы для улучшения README:
-
-1. **Бейджи**:
-```markdown
-[![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-```
-
-2. **Дерево зависимостей** (для больших проектов):
-````markdown
-```mermaid
-graph TD
-    A[BookRecommender] --> B[PyQt5]
-    A --> C[scikit-learn]
-    A --> D[Pandas]
-    B --> E[Qt]
-    C --> F[Numpy]
-```
-````
-
-3. **Пример кода** с подсветкой синтаксиса:
-````markdown
-```python
-def get_recommendations(self, book_id, method='hybrid'):
-    """Возвращает рекомендации для указанной книги"""
-    if method == 'content':
-        return self._content_based(book_id)
-    elif method == 'collab':
-        return self._collaborative(book_id)
-    else:
-        return self._hybrid(book_id)
-```
-````
-
-Такой README обеспечит профессиональное представление вашего проекта!
